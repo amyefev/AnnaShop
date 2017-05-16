@@ -23,7 +23,6 @@ class ComposerStaticInit16639e17239e9c27b09f227dcfec9f21
             'Zend\\Text\\' => 10,
             'Zend\\Test\\' => 10,
             'Zend\\Stdlib\\' => 12,
-            'Zend\\SkeletonInstaller\\' => 23,
             'Zend\\Session\\' => 13,
             'Zend\\ServiceManager\\Di\\' => 23,
             'Zend\\ServiceManager\\' => 20,
@@ -88,6 +87,7 @@ class ComposerStaticInit16639e17239e9c27b09f227dcfec9f21
         'A' => 
         array (
             'Application\\' => 12,
+            'ApplicationTest\\' => 16,
         ),
     );
 
@@ -121,10 +121,6 @@ class ComposerStaticInit16639e17239e9c27b09f227dcfec9f21
         'Zend\\Stdlib\\' => 
         array (
             0 => __DIR__ . '/..' . '/zendframework/zend-stdlib/src',
-        ),
-        'Zend\\SkeletonInstaller\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/zendframework/zend-skeleton-installer/src',
         ),
         'Zend\\Session\\' => 
         array (
@@ -309,6 +305,10 @@ class ComposerStaticInit16639e17239e9c27b09f227dcfec9f21
         'Application\\' => 
         array (
             0 => __DIR__ . '/../..' . '/module/Application/src',
+        ),
+        'ApplicationTest\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/module/Application/test',
         ),
     );
 
